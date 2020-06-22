@@ -12,6 +12,7 @@
 		3BFE525824A0550A005D71E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE525724A0550A005D71E8 /* Assets.xcassets */; };
 		3BFE525B24A0550A005D71E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE525924A0550A005D71E8 /* LaunchScreen.storyboard */; };
 		3BFE526424A05996005D71E8 /* DuplicateSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */; };
+		3BFE526724A06039005D71E8 /* 1561122035537077.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE526624A06039005D71E8 /* 1561122035537077.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3BFE525A24A0550A005D71E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFE525C24A0550A005D71E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateSelfViewController.swift; sourceTree = "<group>"; };
+		3BFE526624A06039005D71E8 /* 1561122035537077.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1561122035537077.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3BFE524F24A05509005D71E8 /* AVFoundationComposition */ = {
 			isa = PBXGroup;
 			children = (
+				3BFE526524A06028005D71E8 /* Resource */,
 				3BFE526224A0591D005D71E8 /* Test */,
 				3BFE525024A05509005D71E8 /* AppDelegate.swift */,
 				3BFE525224A05509005D71E8 /* ViewController.swift */,
@@ -67,9 +70,25 @@
 		3BFE526224A0591D005D71E8 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				3BFE526824A0607E005D71E8 /* 1. 组合视频，重复自身 */,
 				3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		3BFE526524A06028005D71E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE526624A06039005D71E8 /* 1561122035537077.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3BFE526824A0607E005D71E8 /* 1. 组合视频，重复自身 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1. 组合视频，重复自身";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFE526724A06039005D71E8 /* 1561122035537077.mp4 in Resources */,
 				3BFE525B24A0550A005D71E8 /* LaunchScreen.storyboard in Resources */,
 				3BFE525824A0550A005D71E8 /* Assets.xcassets in Resources */,
 			);
