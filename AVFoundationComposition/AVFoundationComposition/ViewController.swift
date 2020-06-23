@@ -10,7 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     
     private let data: [Dictionary<String, String>] = [
-        ["1. 组合视频，重复自身": "DuplicateSelfViewController"]
+        ["1. 组合视频，重复自身": "DuplicateSelfViewController"],
+        ["3. 视频倒放": "ReverseViewController"]
     ]
     
     private let kCellId = "CellId"

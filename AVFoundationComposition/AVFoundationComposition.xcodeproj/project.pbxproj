@@ -13,6 +13,8 @@
 		3BFE525B24A0550A005D71E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE525924A0550A005D71E8 /* LaunchScreen.storyboard */; };
 		3BFE526424A05996005D71E8 /* DuplicateSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */; };
 		3BFE526724A06039005D71E8 /* 1561122035537077.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE526624A06039005D71E8 /* 1561122035537077.mp4 */; };
+		3BFE526B24A09577005D71E8 /* TimesSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE526A24A09577005D71E8 /* TimesSpeedViewController.swift */; };
+		3BFE526E24A0959C005D71E8 /* ReverseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE526D24A0959C005D71E8 /* ReverseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3BFE525C24A0550A005D71E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateSelfViewController.swift; sourceTree = "<group>"; };
 		3BFE526624A06039005D71E8 /* 1561122035537077.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1561122035537077.mp4; sourceTree = "<group>"; };
+		3BFE526A24A09577005D71E8 /* TimesSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesSpeedViewController.swift; sourceTree = "<group>"; };
+		3BFE526D24A0959C005D71E8 /* ReverseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				3BFE526824A0607E005D71E8 /* 1. 组合视频，重复自身 */,
+				3BFE526924A09526005D71E8 /* 2. 视频倍速（0.5倍速，2倍速） */,
+				3BFE526C24A0957C005D71E8 /* 3. 倒放 */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -89,6 +95,22 @@
 				3BFE526324A05996005D71E8 /* DuplicateSelfViewController.swift */,
 			);
 			path = "1. 组合视频，重复自身";
+			sourceTree = "<group>";
+		};
+		3BFE526924A09526005D71E8 /* 2. 视频倍速（0.5倍速，2倍速） */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE526A24A09577005D71E8 /* TimesSpeedViewController.swift */,
+			);
+			path = "2. 视频倍速（0.5倍速，2倍速）";
+			sourceTree = "<group>";
+		};
+		3BFE526C24A0957C005D71E8 /* 3. 倒放 */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE526D24A0959C005D71E8 /* ReverseViewController.swift */,
+			);
+			path = "3. 倒放";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +187,8 @@
 				3BFE526424A05996005D71E8 /* DuplicateSelfViewController.swift in Sources */,
 				3BFE525324A05509005D71E8 /* ViewController.swift in Sources */,
 				3BFE525124A05509005D71E8 /* AppDelegate.swift in Sources */,
+				3BFE526E24A0959C005D71E8 /* ReverseViewController.swift in Sources */,
+				3BFE526B24A09577005D71E8 /* TimesSpeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
